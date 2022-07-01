@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main -> assign a random number to the variable n each time it is executed
+ * and print the last digit of the number stored in the variable
  * Return: Always 0 (Success)
  */
 
@@ -16,15 +17,15 @@ n = rand() - RAND_MAX / 2;
 printf("Last digit of %d is ", n);
 if (n > 5)
 {
-	printf("Last digit 0f %d is and greater than 5");
+	printf("greater than 5");
 }
 if (n == 0)
 {
-	printf("Last digit of %d is and is 0");
+	printf("0");
 }
 if (n < 6 && n != 0)
 {
-	printf("Last digit of %d is and less than 6 not 0");
+	printf("less than 6 not 0");
 }
 printf("\n");
 
