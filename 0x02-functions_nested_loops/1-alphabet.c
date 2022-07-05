@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - prints the alphabets in lowercase
@@ -12,10 +12,9 @@ int main(void)
 {
 	_putchar ch;
 
-	for (ch 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
+	print_alphabet('a');
+	print_alphabet('z');
+	putchar('ch++')
 	_putchar ('\n');
 	return (0);
 }
