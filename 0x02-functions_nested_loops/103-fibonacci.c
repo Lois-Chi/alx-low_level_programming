@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: Always 0
  */
-int main(void);
+int main(void)
 {
 	int i = 0, j = 1, next = 0;
 	int sum = 0;
