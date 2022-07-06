@@ -19,6 +19,10 @@ int main(void)
 		{
 			printf("%ld, ", b);
 		}
+		else
+		{
+			printf("%ld\n", b);
+		}
 		next = b + c;
 		b = c;
 		c = next;
