@@ -13,5 +13,6 @@ void print_square(int size);
 int main(void);
 void print_triangle(int size);
 int main(void);
+void print_number(int n);
 
 #endif
