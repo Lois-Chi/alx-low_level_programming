@@ -1,3 +1,4 @@
+
 /**
  * set_string - sets the value of the pointer to char
  * @s: string param
