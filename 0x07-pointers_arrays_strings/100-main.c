@@ -10,7 +10,6 @@ int main(void)
 {
 	char *s0 = "Bob Dylan";
 	char *s1 = "Robert Allen";
-	char set_string();
 
 	printf("%s, %s\n", s0, s1);
 	set_string(&s1, s0);
