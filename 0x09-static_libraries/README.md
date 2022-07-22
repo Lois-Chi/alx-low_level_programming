@@ -1,1 +1,1 @@
-Static libraries
+This task is on static libraries
