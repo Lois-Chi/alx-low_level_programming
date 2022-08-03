@@ -6,6 +6,7 @@
  * @name: char param
  * @age: float param
  * @owner: char param
+ * Return: struct dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
