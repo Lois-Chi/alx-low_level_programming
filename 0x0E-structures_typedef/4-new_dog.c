@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * new_dog - creates new dog
+ * *new_dog - creates new dog
  * @name: char param
  * @age: float param
  * @owner: char param
