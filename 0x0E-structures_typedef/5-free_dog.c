@@ -1,4 +1,7 @@
 #include "dog.h"
+#include <stdlib.h>
+#include <stddef.h>
+
 /**
  * free_dog - frees the memory allocated
  * @d: dog_t param
