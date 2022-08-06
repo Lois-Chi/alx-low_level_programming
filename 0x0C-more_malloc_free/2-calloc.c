@@ -2,15 +2,13 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-/*
- * *_memset - this function allocates memory of an array
+/**
+ * *_memset -> this function allocates memory of an array
  * @s: string param
  * @b: char param
  * @n: unsigned int param
  * Return: string
  */
-
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
