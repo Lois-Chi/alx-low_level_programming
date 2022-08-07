@@ -56,4 +56,4 @@ void _memcpy(char *dest, char *src, unsigned int n)
 	{
 		*(dest + z) = *(src + z);
 	}
-}              
+}
