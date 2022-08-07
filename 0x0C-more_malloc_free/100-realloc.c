@@ -6,9 +6,11 @@
 /**
  * *_realloc - reallocates a memory block using alloc and free
  * @ptr: pointer to the memory previously allocated
- * @old_sizee: is the allocated size of the ptr
+ * @old_size: is the allocated size of the ptr
  * @new_size: is the new size of the new memory block
+ * Return: newly reallocated memory
  */
+
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *a;
