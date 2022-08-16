@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * free_listint2 - frees a listint_t list
