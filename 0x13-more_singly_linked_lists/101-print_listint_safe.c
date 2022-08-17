@@ -1,14 +1,16 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * print_listint_safe - prints a linked list
  * @head: pointer
- * Return: number of nodes in the list
+ * Return: number of nodes in a list
  */
 size_t print_listint_safe(const listint_t *head)
 {
 	int difference, i, number;
+
 	void *address;
 
 	i = 0;
@@ -28,7 +30,6 @@ size_t print_listint_safe(const listint_t *head)
 			printf("-> [%p] %i\n", address, number);
 			break;
 		}
-
 	}
 	return (i);
 }
